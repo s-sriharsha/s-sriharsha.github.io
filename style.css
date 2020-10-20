@@ -82,6 +82,9 @@ nav ul li{
 }
 
 footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
     height: 2vh;
     text-align: center;
 }
