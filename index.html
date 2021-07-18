@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <title>Sri Harsha</title>
     <meta charset='utf-8'>
@@ -16,47 +16,15 @@
 
         header{
             display: flex;
-            justify-content: space-between;
+            justify-content: center;
             height: auto;
         }
 
         header h2{
-            margin: auto 0;
+            margin: 10px 0;
         }
 
         header h2 a{
-            text-decoration: none;
-            color: white;
-        }
-
-        header nav{
-            margin: auto 0;
-        }
-
-        header nav ul{
-            display: flex;
-            list-style: none;
-            justify-content: space-between;
-        }
-
-        header nav ul a li{
-            margin: auto 5px;
-            padding: 10px;
-            background-color: #84BCDA;
-            border-radius: 3px;
-        }
-
-        header nav ul a:hover li{
-            cursor: pointer;
-            background-color: #84AACA;
-        }
-
-        header nav ul a:active li{
-            cursor: pointer;
-            transform: scale(1.1);
-        }
-
-        header nav ul a{
             text-decoration: none;
             color: white;
         }
@@ -172,18 +140,62 @@
             transition-duration: 0.5s;
             cursor: pointer;
         }
+
+        @media screen and (max-width: 1000px){
+            #Home{
+                display: flex;
+                flex-direction: column;
+            }
+
+            #name-profile{
+                width: 100%;
+            }
+
+            #name-profile img{
+                margin: 10px 0;
+            }
+
+            #name-description{
+                width: 80%;
+                padding: 10px 10%;
+            }
+
+            #name-description h2{
+                font-size: medium;
+            }
+            
+            #YouTube{
+                flex-direction: column-reverse;
+            }
+
+            #YTTitle{
+                width: 100%;
+            }
+
+            #channel-list{
+                width: 100%;
+            }
+
+            #Projects{
+                flex-direction: column;
+            }
+
+            #projects-title{
+                width: 100%;
+                padding-top: 20px;
+            }
+
+            #project-list{
+                width: 100%;
+            }
+            
+        }
     </style>
 </head>
 <body>
     <header>
-        <h2><a href="#">SRI HARSHA</a></h2>
-        <nav>
-            <ul>
-                <a href="#"><li>Home</li></a>
-                <a href="#YouTube"><li>YouTube Channels</li></a>
-                <a href="#Projects"><li>Projects</li></a>
-            </ul>
-        </nav>
+        <center><h2><a href="#">SRI HARSHA</a></h2></center>
+        
     </header>
     <main>
         <div id="Home">
