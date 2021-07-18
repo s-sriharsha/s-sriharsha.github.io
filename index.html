@@ -3,58 +3,236 @@
 <head>
     <title>Sri Harsha</title>
     <meta charset='utf-8'>
-    <link rel="stylesheet" type="text/css" href="style.css" media="screen">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <script data-ad-client="ca-pub-5255647732826740" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <style>
+        *{
+            font-family:Verdana, Geneva, Tahoma, sans-serif;
+        }
+
+        body{
+            background-color: #2A2D43;
+        }
+
+        header{
+            display: flex;
+            justify-content: space-between;
+            height: auto;
+        }
+
+        header h2{
+            margin: auto 0;
+        }
+
+        header h2 a{
+            text-decoration: none;
+            color: white;
+        }
+
+        header nav{
+            margin: auto 0;
+        }
+
+        header nav ul{
+            display: flex;
+            list-style: none;
+            justify-content: space-between;
+        }
+
+        header nav ul a li{
+            margin: auto 5px;
+            padding: 10px;
+            background-color: #84BCDA;
+            border-radius: 3px;
+        }
+
+        header nav ul a:hover li{
+            cursor: pointer;
+            background-color: #84AACA;
+        }
+
+        header nav ul a:active li{
+            cursor: pointer;
+            transform: scale(1.1);
+        }
+
+        header nav ul a{
+            text-decoration: none;
+            color: white;
+        }
+
+        main{
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+        }
+
+        #Home{
+            display: flex;
+        }
+
+        #name-profile{
+            width: 30%;
+            background-color: #2A2D43;
+            color: white;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        #name-profile img{
+            border-radius: 50%;
+        }
+
+        #name-description{
+            width: 50%;
+            background-color: #d56062;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            color: white;
+            padding: 40px 10%;
+        }
+    
+        #YouTube{
+            display: flex;
+        }
+
+        #YTTitle{
+            width: 30%;
+            background-color: #2A2D43;
+            color: white;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        #channel-list{
+            width: 70%;
+            background-color: #ACBFA4;
+            display: flex;
+            justify-content: space-around;
+        }
+        
+        #channel-list a div{
+            border: solid;
+            margin: 20px;
+            padding: 25px;
+            border-radius: 10px;
+            transition-duration: 0.5s;
+            background-color: teal;
+        }
+
+        #channel-list a{
+            text-decoration: none;
+            color: white;
+        }
+
+        #channel-list a:hover div{
+            transform: scale(1.05);
+            transition-duration: 0.5s;
+            cursor: pointer;
+        }
+
+        #Projects{
+            display: flex;
+        }
+
+        #projects-title{
+            width: 30%;
+            background-color: #2A2D43;
+            color: white;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        #project-list{
+            width: 70%;
+            background-color:steelblue;
+            display: flex;
+            justify-content: space-around;
+        }
+        #project-list a div{
+            border: solid;
+            margin: 20px;
+            padding: 25px;
+            border-radius: 10px;
+            transition-duration: 0.5s;
+            background-color:darkcyan;
+        }
+
+        #project-list a{
+            text-decoration: none;
+            color: white;
+        }
+
+        #project-list a:hover div{
+            transform: scale(1.05);
+            transition-duration: 0.5s;
+            cursor: pointer;
+        }
+    </style>
 </head>
 <body>
-<header>
-<h1><a href="/">SRI HARSHA</a></h1>
-<nav>
-<ul>
-<li><a href="#Home">Home</a></li>
-<li><a href="#YT">YouTube Channels</a></li>
-<li><a href="#Blogs">Blogs</a></li>
-</ul>
-</nav>
-</header>
-<main>
-<div name="Home" id="Home">
-<h1>Hello! I am Harsha</h1>
-<h1>You can find my works here</h1>
-</div>
-<div name="YT" id="YT">
-<h1>YouTube Channels</h1>
-<div name="Channels" id="Channels">
-<div name="WebCoder" id="WebCoder">
-<img src="https://raw.githubusercontent.com/s-sriharsha/s-sriharsha.github.io/main/Scientific Kernel.jpg" width="150vw" height="150vh">
-<h2>Web Coder</h2>
-<a href="https://www.youtube.com/channel/UC3hhKWk7HZeOu6CmctzDdOw?sub_confirmation=1">
-<img src="https://raw.githubusercontent.com/s-sriharsha/s-sriharsha.github.io/main/YouTube%20Subscribe.webp" width="150vw" height="120vh">
-</a>
-</div>
-</div>
-</div>
-<div name="Blogs" id="Blogs">
-<h1>Blogs</h1>
-<div name="Blog" id="Blog">
-<a href="https://webcoder.sri-harsha.com">
-<div name="WebCoderBlog" id="WebCoderBlog">
-<img src="https://raw.githubusercontent.com/s-sriharsha/s-sriharsha.github.io/main/Scientific Kernel.jpg" width="100px" height="100px">
-<h2>Web Coder</h2>
-<p>https://webcoder.sri-harsha.com/</p>
-</div>
-</a>
-</div>
-</div>
-</main>
-<footer>
-<div>
-    <a href="https://www.facebook.com/sriharsha.saragadam" class="fa fa-facebook"></a>
-    <a href="https://www.instagram.com/s.sri.harsha/" class="fa fa-instagram"></a>
-    <a href="https://www.linkedin.com/in/sri-harsha-s/" class="fa fa-linkedin"></a>
-</div>
-<p>&copy; Sri Harsha | v0.1</p>
-</footer>
+    <header>
+        <h2><a href="#">SRI HARSHA</a></h2>
+        <nav>
+            <ul>
+                <a href="#"><li>Home</li></a>
+                <a href="#YouTube"><li>YouTube Channels</li></a>
+                <a href="#Projects"><li>Projects</li></a>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div id="Home">
+            <div id="name-profile">
+                <center><img src="profilepic.jfif" width="150" height="150"></center>
+            </div>
+            <div id="name-description">
+                <div>
+                    <h2>Hello there!</h2>
+                    <h2>I'm Sri Harsha. You can find my works here.</h2>
+                    <h2>Scroll down to find more.</h2>
+                </div>
+            </div>
+        </div>
+        <div id="YouTube">
+            
+            <div id="channel-list">
+                <a href="https://www.youtube.com/c/ScientificKernel">
+                    <div>
+                        <center><img src="ScientificKernel.png" width="150" height="150"></center>
+                        <center><h2>Scientific Kernel</h2></center>
+                        <center><img src="YouTubeSubscribe.png" width="150"></center>
+                    </div>
+                </a>
+            </div>
+            <div id="YTTitle">
+                <center><img src="YouTube.png" width="150" height="150"></center>
+                <center><h1>YouTube Channels</h1></center>
+            </div>
+        </div>
+        <div id="Projects">
+            <div id="projects-title">
+                <div>
+                    <center><img src="projectslogo.png" width="150" height="150"></center>
+                    <center><h1>Projects</h1></center>
+                </div>
+            </div>
+            <div id="project-list">
+                <a href="https://minilink.in">
+                    <div>
+                        <center><img src="linkimg.png" width="150" height="150"></center>
+                        <center><h2>MiniLink</h2></center>
+                        <center><h3>URL Shortener</h3></center>
+                    </div>
+                </a>
+            </div>
+        </div>
+        
+    </main>
+    
 </body>
 </html>
